@@ -1,3 +1,6 @@
+## note
+
+typical example, type, mutation, subscription 
 ```
 type Query{
     allPerson(last:Int):[Person!]!
@@ -22,3 +25,8 @@ type Post{
 }
 
 ```
+
+
+The essence of GraphQL
+
+GraphQL is a query language that traverses your data graph to produce a query result tree.--taken from [Apollo Blog](https://blog.apollographql.com/the-concepts-of-graphql-bc68bd819be3)
